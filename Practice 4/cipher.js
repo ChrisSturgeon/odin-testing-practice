@@ -27,7 +27,7 @@ function cipher(input, shift) {
     });
     return outputArr.join('');
   } else {
-    throw new Error('Input must be a string and shift a number');
+    throw new Error('Input must be a string type and shift a number type');
   }
 }
 
